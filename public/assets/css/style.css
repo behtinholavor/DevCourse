@@ -16,3 +16,8 @@ label{
 	width: 550px;
 	margin-top: .25rem;
 }
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}

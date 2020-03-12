@@ -1,8 +1,5 @@
-<?=get('message');?>
-
-
 <h4>Formulário de Cadastro</h4>
-<form class="form-margin" method="post" action="product_add.php">
+<form class="form-margin" method="post" action="/pages/actions/product_add.php">
 	<div class="form-group">
 		<label>Código</label>
 		<input type="number" min="0" step="1" class="form-control" name="edtCode" placeholder="Informe o código e/ou sku do produto">			

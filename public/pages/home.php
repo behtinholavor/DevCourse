@@ -1,5 +1,3 @@
-<?=get('message');?>
-
 <div class="container">
 <!-- 	<nav class="navbar navbar-light">
 		<a class="navbar-brand" href="#">
@@ -27,6 +25,7 @@
 		</button>		
 	</nav>
 
-
-
+	<div class="centered">		
+		<?=get('message');?>
+	</div>	
 </div>
