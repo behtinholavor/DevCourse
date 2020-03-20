@@ -1,4 +1,4 @@
-<h4>Formulário de Cadastro</h4>
+<h4>Formulário</h4>
 <form class="form-margin" method="post" action="/pages/actions/product_add.php">
 	<div class="form-group">
 		<label>Código</label>

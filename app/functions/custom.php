@@ -24,3 +24,5 @@ function redirectToHome() {
 function info() {
     phpinfo();
 }
+
+?>

@@ -21,3 +21,10 @@ label{
     margin: 0 auto !important;
     float: none !important;
 }
+
+.row-menu{
+    display: flex;    
+    flex-wrap: wrap;
+	margin-right: 0px;
+    margin-left: 0px;
+}
