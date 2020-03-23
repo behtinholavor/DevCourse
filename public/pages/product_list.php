@@ -11,35 +11,28 @@
     </tr>
   </thead>
   <tbody>
+    
+    <!-- <?php 
+      require "actions/product_query.php";
+      $products = all('stock');
+      foreach($products as $product):   
+    ?>
 
-    <?php 
-        require "actions/product_query.php";
-        $products = all('stock');
-        foreach($products as $product):   
-      ?>
+    <tr>
+      <td><?=$product->id?></td>
+      <td><?=$product->description?></td>
+      <td><?=$product->quantity?></td>
+      <td><?=$product->category?></td>
+      <td><?=$product->manufacturer?></td>
+      
+      <td><a class="btn btn-success" href="?page=product_edit&id=<?=$product->id;?>">Editar</a></td>
+      <td><a class="btn btn-danger" href="?page=product_del&id=<?=$product->id;?>">Deletar</a></td>
+    </tr>
 
-      <tr>
-        <td><?=$product->id?></td>
-        <td><?=$product->description?></td>
-        <td><?=$product->quantity?></td>
-        <td><?=$product->category?></td>
-        <td><?=$product->manufacturer?></td>
-        
-        <td><a class="btn btn-success" href="?page=product_edit&id=<?=$product->id;?>">Editar</a></td>
-        <td><a class="btn btn-danger" href="?page=product_del&id=<?=$product->id;?>">Deletar</a></td>
-      </tr>
+    <?php endforeach; ?>  -->
 
-    <?php endforeach; ?>
 
-<!--     <tr>      
-      <th scope="row">1</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>   -->  
+
 
   </tbody>
 </table>
